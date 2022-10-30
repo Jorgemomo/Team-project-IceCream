@@ -11,15 +11,14 @@
   --about-button: #ffffff;
 }
 
-body {
-  background-color: var(--advantages-about-background);
-}
+
 
 /* Section About Mobile*/
 
 .about__container {
   width: 100%;
   margin: 0 auto;
+  background-color: var(--advantages-about-background);
 }
 
 .about__section {
@@ -141,8 +140,9 @@ body {
 
 @media screen and (min-width: 768px) {
   .about__container {
-    width: 768px;
-    margin: 0;
+    width: 100%;
+  margin: 0 auto;
+  background-color: var(--advantages-about-background);
   }
 
   .about__section {
@@ -257,8 +257,9 @@ body {
 /* Section About 1200px*/
 @media screen and (min-width: 1200px) {
   .about__container {
-    width: 1200px;
-    margin: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--advantages-about-background);
   }
 
   .about__section {
@@ -348,6 +349,7 @@ body {
 .advantages__container {
   width: 100%;
   margin: 0;
+  background-color: var(--advantages-about-background);
 }
 
 .advantages__section {
@@ -396,7 +398,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .advantages__container {
-    width: 768px;
+    width: 100%;
   }
 
   .advantages__section {
@@ -468,7 +470,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .advantages__container {
-    width: 1200px;
+    width: 100%;
   }
 
   .advantages__section {
